@@ -3,6 +3,8 @@ package com.augustczar.springcourse.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.augustczar.springcourse.enums.Role;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,6 +18,7 @@ public class User {
 	private String name;
 	private String email;
 	private String password;
+	private Role role;
 	private List<Request> requests = new ArrayList<Request>();
 	private List<RequestStatage> requestStatages = new ArrayList<RequestStatage>();
 }
