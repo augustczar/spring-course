@@ -1,0 +1,5 @@
+package com.augustczar.springcourse.model;
+
+public class Request {
+
+}

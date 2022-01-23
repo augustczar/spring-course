@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/home/augustczar/Documents/Udemy/ApiRestFull2020/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3409879711.index
+317485916.index
+2772075789.index
+3756581065.index
+2058570597.index

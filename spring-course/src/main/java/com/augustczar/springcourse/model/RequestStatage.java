@@ -1,0 +1,23 @@
+package com.augustczar.springcourse.model;
+
+import java.util.Date;
+
+import com.augustczar.springcourse.enums.RequestState;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class RequestStatage {
+	
+	private Long id;
+	private String description;
+	private Date realizationdate;
+	private RequestState requestState;
+	private Request request;
+	private User user;
+
+}
